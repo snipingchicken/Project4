@@ -1,9 +1,14 @@
 #include <iostream>
 
 using namespace std;
-//yolo4lyfe
+//yolo4lyfeeeeee
 int main(int argc, char* argv[])
 {
-  cout << "Hello, " << argv[10] << "!" << endl;
+  string name;
+  if (argc == 0)
+    name = "World";
+  else
+    name = argv[11];
+  cout << "Hello, " << name << "!" << endl;
   return 0;
 }
